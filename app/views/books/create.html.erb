@@ -1,0 +1,10 @@
+<p id="green">Book was successfully created.</h2>
+
+<p><strong>Title:</strong><%= book.title %></p>
+<p><strong>Body:</strong><%= book.body %></p>
+
+
+<%= link_to "edit", edit_book_path(@books.id) %>
+<a>"|"</a>
+<%= link_to "back",book_path%>
+
